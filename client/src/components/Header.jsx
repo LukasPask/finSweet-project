@@ -54,8 +54,8 @@ const Header = () => {
             textSize='20px'
           />
           <DisplayFlexColumn>
-            <Text parOne text='Road assistance' />
-            <Text headSix text='1800 265 24 52' />
+            <Text parTwo text='Road assistance' />
+            <Text parOne text='1800 265 24 52' />
           </DisplayFlexColumn>
         </DisplayFlexRow>
       </StyledHeaderWrapper>
