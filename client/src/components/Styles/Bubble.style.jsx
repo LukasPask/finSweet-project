@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const StyledBubble = styled.div`
   position: relative;
   border-radius: 50%;
+  position: relative;
 `;
 
 export const StyledText = styled.span`

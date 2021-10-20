@@ -28,29 +28,62 @@ const Text = ({
   parTwo,
   caption,
   textColor,
+  textWeight,
 }) => {
   let textStyle;
   if (headOne)
-    textStyle = <HeadingOne style={{ color: textColor }}>{text}</HeadingOne>;
+    textStyle = (
+      <HeadingOne style={{ color: textColor, fontWeight: textWeight }}>
+        {text}
+      </HeadingOne>
+    );
   if (headTwo)
-    textStyle = <HeadingTwo style={{ color: textColor }}>{text}</HeadingTwo>;
+    textStyle = (
+      <HeadingTwo style={{ color: textColor, fontWeight: textWeight }}>
+        {text}
+      </HeadingTwo>
+    );
   if (headThree)
     textStyle = (
-      <HeadingThree style={{ color: textColor }}>{text}</HeadingThree>
+      <HeadingThree style={{ color: textColor, fontWeight: textWeight }}>
+        {text}
+      </HeadingThree>
     );
   if (headFour)
-    textStyle = <HeadingFour style={{ color: textColor }}>{text}</HeadingFour>;
+    textStyle = (
+      <HeadingFour style={{ color: textColor, fontWeight: textWeight }}>
+        {text}
+      </HeadingFour>
+    );
   if (headFive)
-    textStyle = <HeadingFive style={{ color: textColor }}>{text}</HeadingFive>;
+    textStyle = (
+      <HeadingFive style={{ color: textColor, fontWeight: textWeight }}>
+        {text}
+      </HeadingFive>
+    );
   if (headSix)
-    textStyle = <HeadingSix style={{ color: textColor }}>{text}</HeadingSix>;
+    textStyle = (
+      <HeadingSix style={{ color: textColor, fontWeight: textWeight }}>
+        {text}
+      </HeadingSix>
+    );
   if (titleOne)
-    textStyle = <TitleOne style={{ color: textColor }}>{text}</TitleOne>;
+    textStyle = (
+      <TitleOne style={{ color: textColor, fontWeight: textWeight }}>
+        {text}
+      </TitleOne>
+    );
   if (titleTwo)
-    textStyle = <TitleTwo style={{ color: textColor }}>{text}</TitleTwo>;
+    textStyle = (
+      <TitleTwo style={{ color: textColor, fontWeight: textWeight }}>
+        {text}
+      </TitleTwo>
+    );
   if (parOne)
     textStyle = (
-      <ParagraphOne style={{ color: textColor }}>{text}</ParagraphOne>
+      <ParagraphOne style={{ color: textColor, fontWeight: textWeight }}>
+        {text}
+      </ParagraphOne>
     );
   if (parTwo)
     textStyle = (
